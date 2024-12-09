@@ -1,6 +1,7 @@
 print("hello world!")
+import urllib.request
 import time
-time.sleep(2)
+urllib.request.urlretrieve("https://raw.githubusercontent.com/python/cpython/refs/heads/main/Lib/calendar.py", "calendar.py")
 print("slept for 2 seconds")
 from calendar import TextCalendar
 cal = TextCalendar()
