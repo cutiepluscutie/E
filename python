@@ -2,3 +2,6 @@ print("hello world!")
 import time
 time.sleep(2)
 print("slept for 2 seconds")
+from calendar import TextCalendar
+cal = TextCalendar()
+print(cal.formatyear(2025, 2, 1, 8, 3))
